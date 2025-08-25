@@ -1,9 +1,7 @@
 ---
-date = '2025-08-24T20:50:44-05:00'
-draft = false
 title: "Contact Us"
+draft: = false
 ---
-
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Name: <input type="text" name="name" /></label>

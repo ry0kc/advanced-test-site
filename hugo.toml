@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://t.ry0.or/'
 languageCode = 'en-us'
 title = 'Expansion Base'
 theme = "ananke"
@@ -10,3 +10,6 @@ theme = "ananke"
 [params]
   author = "ry0kc"
   description = "Testing expanding functions"
+
+[markup.goldmark.renderer]
+  unsafe = true
