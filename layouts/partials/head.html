@@ -1,0 +1,17 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+
+  <!-- Ananke default CSS -->
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+
+  <!-- Optional: extra head content -->
+  {{ block "head_extra" . }}{{ end }}
+</head>

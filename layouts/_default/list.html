@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="post-list">
+  {{ range .Pages }}
+    <div class="post-card">
+      <a href="{{ .Permalink }}">
+        {{ with .Params.featured_image }}
+          <img src="{{ . }}" alt="{{ $.Title }}">
+        {{ else }}
+          <img src="/images/placeholder.jpg" alt="Placeholder">
+        {{ end }}
+        <div class="post-card-content">
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Summary }}</p>
+        </div>
+      </a>
+    </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="pb7" role="main">
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+
+    <!-- Title -->
+    <header class="mb4">
+      <h1 class="f2 f1-l fw6 dark-gray mb3">{{ .Title }}</h1>
+      <time class="f6 db mid-gray" datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </header>
+
+    <!-- Featured Image -->
+    {{ with .Params.featured_image }}
+      <figure class="mv4">
+        <img src="{{ . | absURL }}" 
+             alt="{{ $.Params.featured_image_alt | default $.Title }}" 
+             class="w-100"/>
+      </figure>
+    {{ end }}
+
+    <!-- Main content -->
+    <section class="lh-copy f4 mid-gray tl">
+      {{ .Content }}
+    </section>
+
+    <!-- Tags -->
+    {{ with .Params.tags }}
+      <footer class="mt5">
+        <p class="f6 b tracked ttu">Tags</p>
+        <ul class="list pl0">
+          {{ range . }}
+            <li class="dib mr3">
+              <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link dim blue">
+                {{ . }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </footer>
+    {{ end }}
+
+  </article>
+</main>
+{{ end }}

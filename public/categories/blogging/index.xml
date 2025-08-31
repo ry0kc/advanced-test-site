@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Expansion Base</title>
+    <link>http://localhost:1313/categories/blogging/</link>
+    <description>Recent content in Blogging on Expansion Base</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Aug 2025 20:14:47 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note 8-28-25</title>
+      <link>http://localhost:1313/posts/note/</link>
+      <pubDate>Thu, 28 Aug 2025 20:14:47 -0500</pubDate>
+      <guid>http://localhost:1313/posts/note/</guid>
+      <description>&lt;h2 id=&#34;first-post-only-partially-ai-&#34;&gt;First Post, only partially ai 🎉&lt;/h2&gt;&#xA;&lt;p&gt;Today I learned I cannot easily use an Amazon smart switch with Home Assistant.&#xA;Luckily I have a few of those.&lt;/p&gt;&#xA;&lt;p&gt;Using Ananke theme. Exploring the capabilities of this setup&lt;/p&gt;&#xA;&lt;h3 id=&#34;n&#34;&gt;N&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Explore additional features with free hosted auto deploy&lt;/li&gt;&#xA;&lt;li&gt;Find other smart switch&lt;/li&gt;&#xA;&lt;li&gt;Add it to HA with a meaninful name&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ry0kc&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;image&#34;&gt;Image&lt;/h3&gt;&#xA;&lt;p&gt;Here’s an image with a caption:&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/example.jpg&#34;&#xA;    alt=&#34;pumpkin roll&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Punkn&amp;#39; roll&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h3 id=&#34;code-block&#34;&gt;Code Block&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-recipe&#34; data-lang=&#34;recipe&#34;&gt;def greet(name):&#xA;    print(f&amp;#34;Hello, {name}!&amp;#34;)&#xA;&#xA;greet(&amp;#34;Ry O&amp;#34;)&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

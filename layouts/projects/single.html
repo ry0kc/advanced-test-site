@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="project-single">
+  <header class="project-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.featured_image }}
+      <img class="project-hero" src="{{ . | relURL }}" alt="{{ $.Title }}">
+    {{ end }}
+    {{ if .Params.tags }}
+      <div class="tags">
+        {{ range .Params.tags }}
+          <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+  </header>
+
+  <section class="project-body">
+    {{ .Content }}
+  </section>
+</article>
+{{ end }}
