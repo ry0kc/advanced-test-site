@@ -1,6 +1,6 @@
-baseURL = 'https://t.ry0.or/'
+baseURL = 'https://a.ry0.org/'
 languageCode = 'en-us'
-title = 'Expansion Base'
+title = 'Projects and Posts'
 theme = "ananke"
 
 [module]
@@ -9,7 +9,7 @@ theme = "ananke"
 	
 [params]
   author = "ry0kc"
-  description = "Testing expanding functions"
+  description = "Projects and adjacent posts"
 
 [[menu.main]]
  identifier = "home"
