@@ -11,5 +11,23 @@ theme = "ananke"
   author = "ry0kc"
   description = "Testing expanding functions"
 
+[[menu.main]]
+ identifier = "home"
+ name = "Home"
+ url = "/"
+ weight = 1
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+  
 [markup.goldmark.renderer]
   unsafe = true
