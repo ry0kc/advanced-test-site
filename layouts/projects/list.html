@@ -1,23 +1,26 @@
 {{ define "main" }}
-<section class="projects">
-  <div class="project-grid">
-    {{ range .Pages }}
-    <article class="project-card{{ if .Params.featured }} featured{{ end }}">
-      {{ with .Params.featured_image }}
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}">
-      {{ end }}
-      <h3>{{ .Title }}</h3>
-      <div class="project-content">
-        <p>{{ .Summary }}</p>
-        <div class="tags">
-          {{ range .Params.tags }}
-            <span class="tag">{{ . }}</span>
+<section class="projects-grid">
+  {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="project-card-link">
+      <article class="project-card{{ if .Params.featured }} featured{{ end }}">
+        <div class="project-thumb">
+          {{ with .Params.featured_image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
           {{ end }}
+          <div class="overlay">
+            <h3>{{ .Title }}</h3>
+          </div>
         </div>
-        <a href="{{ .RelPermalink }}">Read more →</a>
-      </div>
-    </article>
-    {{ end }}
-  </div>
+        <div class="project-content">
+          <p>{{ .Summary }}</p>
+          <div class="tags">
+            {{ range .Params.tags }}
+              <span class="tag">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+      </article>
+    </a>
+  {{ end }}
 </section>
 {{ end }}

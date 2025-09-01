@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Expansion Base</title>
+    <title>Projects on Projects and Posts</title>
     <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Expansion Base</description>
+    <description>Recent content in Projects on Projects and Posts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 06:16:51 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Server</title>
+      <link>http://localhost:1313/projects/home-server/</link>
+      <pubDate>Mon, 01 Sep 2025 06:16:51 -0500</pubDate>
+      <guid>http://localhost:1313/projects/home-server/</guid>
+      <description>&lt;h3 id=&#34;home-server-project&#34;&gt;Home Server Project&lt;/h3&gt;&#xA;&lt;p&gt;8-31-2025&lt;/p&gt;&#xA;&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;To build and set up a server that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hosts Home Assistant&lt;/li&gt;&#xA;&lt;li&gt;Hosts Jellyfin and media library&lt;/li&gt;&#xA;&lt;li&gt;Has remotely accessible storage for adding media&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;plan&#34;&gt;Plan&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Repurpose Linux PC with Windows 11&lt;/li&gt;&#xA;&lt;li&gt;Prepare image on usb stick&lt;/li&gt;&#xA;&lt;li&gt;Set bios to boot from image&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;obstacle-1&#34;&gt;Obstacle 1&lt;/h3&gt;&#xA;&lt;p&gt;TPMS is not supported by the motherboard.&#xA;I attempted TPMS bypass images with no luck.&#xA;Installed Windows 10.&#xA;I should note, the process up to this point was taking a really long time.&#xA;I knew the resources needed for the server were minimal, but I didn&amp;rsquo;t pay attention to the system specs.&#xA;The computer only had 2 GBs of RAM. Another stick of 4 was installed. This sped things up significantly.&#xA;I moved the server upstairs and in place, hooked up which was a PITA with the current TV placement.&#xA;I attempted to set up the virtual Home Assistant server and&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Initial Site Project</title>
       <link>http://localhost:1313/projects/ananke-github-netlify/</link>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HA on Expansion Base</title>
+    <title>HA on Projects and Posts</title>
     <link>http://localhost:1313/tags/ha/</link>
-    <description>Recent content in HA on Expansion Base</description>
+    <description>Recent content in HA on Projects and Posts</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Aug 2025 20:14:47 -0500</lastBuildDate>
