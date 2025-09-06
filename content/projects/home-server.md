@@ -43,5 +43,19 @@ I'm working on setting up RDP or VNC on the server. I have gotten both to connec
 - I need to set up titles and configure the Jellyfin library
 - I need to rename, locate, reconnect and otherwise integrate smart devices with Home Assistant
 
+### Update 9-4-25 and Tapo C210
+- VNC is working on the server
+- I've added my Tapo C210 cameras. They won't provide a live view on a dashboard. RTSP has been disabled or hidden with recent updates.
+- Working on automating image capture
+ChatGPT has been useful in this endevor. I feel like it has enabled me to see results faster. At the same time, the information provided is similar to if someone glanced over some write ups of similar setups.
+The information was often out of date and incompatible. You can feel the edges of the ingested dataset. I am currently using the free version though. 
+
+### Update 9-6-25 and Wyze v2
+I have live view for both camera types. To get live views to work on a HA dashboard card, a RTSP is required. For Wyze I had to flash specific firmware.
+- These will eventually be replaced with camera's that are independent of a cloud service
+I reserved IPs in my router that came with my internet service.
+- This will be replaced by my own router.
+I added entries to the configuration.yaml of HA to add controls for the Tapo camera's.
+
 
 
