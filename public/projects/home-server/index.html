@@ -91,7 +91,7 @@ Goal To build and set up a server that:
 Hosts Home Assistant Hosts Jellyfin and media library Has remotely accessible storage for adding media Plan Repurpose Linux PC with Windows 11 Prepare image on usb stick Set bios to boot from image Obstacle 1 TPMS is not supported by the motherboard. I attempted TPMS bypass images with no luck. Installed Windows 10. I should note, the process up to this point was taking a really long time. I knew the resources needed for the server were minimal, but I didn’t pay attention to the system specs. The computer only had 2 GBs of RAM. Another stick of 4 was installed. This sped things up significantly. I moved the server upstairs and in place, hooked up which was a PITA with the current TV placement. I attempted to set up the virtual Home Assistant server and">
   <meta itemprop="datePublished" content="2025-09-01T06:16:51-05:00">
   <meta itemprop="dateModified" content="2025-09-01T06:16:51-05:00">
-  <meta itemprop="wordCount" content="326">
+  <meta itemprop="wordCount" content="515">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Home Server">
   <meta name="twitter:description" content="Home Server Project 8-31-2025
@@ -133,6 +133,12 @@ Hosts Home Assistant Hosts Jellyfin and media library Has remotely accessible st
           <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
               Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/donate/" title="Donate page">
+              Donate
             </a>
           </li>
           
@@ -201,6 +207,22 @@ Home Assistant and Jellyfin are working</p>
 <ul>
 <li>I need to set up titles and configure the Jellyfin library</li>
 <li>I need to rename, locate, reconnect and otherwise integrate smart devices with Home Assistant</li>
+</ul>
+<h3 id="update-9-4-25-and-tapo-c210">Update 9-4-25 and Tapo C210</h3>
+<ul>
+<li>VNC is working on the server</li>
+<li>I&rsquo;ve added my Tapo C210 cameras. They won&rsquo;t provide a live view on a dashboard. RTSP has been disabled or hidden with recent updates.</li>
+<li>Working on automating image capture
+ChatGPT has been useful in this endevor. I feel like it has enabled me to see results faster. At the same time, the information provided is similar to if someone glanced over some write ups of similar setups.
+The information was often out of date and incompatible. You can feel the edges of the ingested dataset. I am currently using the free version though.</li>
+</ul>
+<h3 id="update-9-6-25-and-wyze-v2">Update 9-6-25 and Wyze v2</h3>
+<p>I have live view for both camera types. To get live views to work on a HA dashboard card, a RTSP is required. For Wyze I had to flash specific firmware.</p>
+<ul>
+<li>These will eventually be replaced with camera&rsquo;s that are independent of a cloud service
+I reserved IPs in my router that came with my internet service.</li>
+<li>This will be replaced by my own router.
+I added entries to the configuration.yaml of HA to add controls for the Tapo camera&rsquo;s.</li>
 </ul>
 
   </section>

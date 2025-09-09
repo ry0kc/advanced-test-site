@@ -10,7 +10,7 @@ theme = "ananke"
 [params]
   author = "ry0kc"
   description = "Projects and adjacent posts"
-  bitcoin_address = "bc1qexampleyourbtcaddress"
+  bitcoin_address = "bc1qqe69nwzxxh36n9vh35xkydmr3aklfg0zxjrrkz"
 
 [[menu.main]]
  identifier = "home"
