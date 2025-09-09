@@ -1,7 +1,9 @@
+{{ $btc := .Site.Params.bitcoin_address }}
+
 <div style="max-width:400px; margin:20px auto; text-align:center; font-family:sans-serif;">
   <h3 style="margin-bottom:16px; color:#333;">Support My Work with Bitcoin</h3>
   
-  <a href="bitcoin:bc1qexampleyourbtcaddress"
+  <a href="bitcoin:{{ $btc }}"
      style="display:inline-block; background:#f7931a; color:#fff; padding:14px 28px;
             border-radius:50px; font-weight:bold; text-decoration:none; font-size:1.1rem;
             transition:background 0.3s ease;">
@@ -9,10 +11,10 @@
   </a>
   
   <p style="margin:16px 0 8px; font-size:0.9rem; color:#555; word-break:break-all;">
-    Wallet: <code>bc1qexampleyourbtcaddress</code>
+    Wallet: <code>{{ $btc }}</code>
   </p>
   
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=bitcoin:bc1qexampleyourbtcaddress" 
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=bitcoin:{{ $btc }}" 
        alt="Bitcoin QR Code" 
        style="max-width:100%; height:auto; border-radius:12px; margin-top:10px;" />
 </div>

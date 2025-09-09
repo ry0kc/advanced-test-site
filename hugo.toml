@@ -10,6 +10,7 @@ theme = "ananke"
 [params]
   author = "ry0kc"
   description = "Projects and adjacent posts"
+  bitcoin_address = "bc1qexampleyourbtcaddress"
 
 [[menu.main]]
  identifier = "home"
@@ -28,6 +29,11 @@ theme = "ananke"
   name = "Projects"
   url = "/projects/"
   weight = 3
+
+[[menu.main]]
+  name = "Donate"
+  url = "/donate/"
+  weight = 10  
   
 [markup.goldmark.renderer]
   unsafe = true
